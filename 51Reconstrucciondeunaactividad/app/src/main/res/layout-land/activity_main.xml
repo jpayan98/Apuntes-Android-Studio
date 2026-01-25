@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnMas"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_mas"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnMenos"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_menos"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvContador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valor_inicial"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:textColor="@color/azul_contador"
+        android:layout_marginStart="48dp" />
+
+</LinearLayout>

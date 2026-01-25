@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- TextView superior con el mensaje principal -->
+    <TextView
+        android:id="@+id/textViewInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoInicio"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- EditText para introducir el número -->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/hintNumero"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TextView con "¡Inténtalo!" -->
+    <TextView
+        android:id="@+id/textViewIntentalo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textoIntentalo"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botón Probar -->
+    <Button
+        android:id="@+id/buttonProbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botonProbar"
+        android:onClick="comprobarNumero"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TextView para mostrar número de intentos -->
+    <TextView
+        android:id="@+id/textViewIntentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"/>
+
+    <!-- Botón Nueva Partida (inicialmente oculto) -->
+    <Button
+        android:id="@+id/buttonNuevaPartida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botonNuevaPartida"
+        android:onClick="nuevaPartida"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

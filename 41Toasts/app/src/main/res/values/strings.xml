@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppToast</string>
+    <string name="mensaje">Este es un mensaje Toast</string>
+    <string name="pulsame">Púlsame</string>
+</resources>

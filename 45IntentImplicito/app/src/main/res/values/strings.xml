@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppIntentImplicito</string>
+    <string name="ejecutarBateria">Ejecutar Batería</string>
+    <string name="ejecutarWeb">Ejecutar Web</string>
+    <string name="ejecutarSMS">Ejecutar SMS</string>
+    <string name="ejecutarSMSConTexto">Ejecutar SMS con Texto</string>
+    <string name="ejecutarGaleria">Ejecutar Galería (Imágenes)</string>
+    <string name="ejecutarAudio">Ejecutar Galería (Audio)</string>
+    <string name="ejecutarDial">Ejecutar Marcador</string>
+    <string name="ejecutarCall">Ejecutar Llamada</string>
+</resources>

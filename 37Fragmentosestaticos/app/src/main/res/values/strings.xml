@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">3.7 Fragmentos estaticos</string>
+    <string name="actividad_principal">Actividad Principal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_a">FRAGMENT A</string>
+    <string name="fragment_b">FRAGMENT B</string>
+    <string name="send">Send</string>
+</resources>

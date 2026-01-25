@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">3.5 Botones de Radio</string>
+    <string name="android">Android</string>
+    <string name="ios">IOS</string>
+    <string name="windows">Windows</string>
+    <string name="simbian">Simbian</string>
+    <string name="otro">Otro</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="pregunta">¿Que sistema operativo prefieres?</string>
+    <string name="respAndr">Es una plataforma de codigo abierto</string>
+    <string name="respIOS">Es un sistema operativo de la multinacional apple</string>
+    <string name="respWind">Es un sistema operativo desarrollado por Microsoft</string>
+    <string name="respSimb">Es un sistema operativo desarrollado por Nokia</string>
+    <string name="respOtro">Blackberry, OS, Firefox OS, etc.</string>
+</resources>

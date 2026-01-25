@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppCuadroDeDialogo</string>
+    <string name="ver_mensaje">Ver Mensaje</string>
+    <string name="titulo_dialogo">Mensaje</string>
+    <string name="mensaje_dialogo">¿Quieres ver el mensaje?</string>
+    <string name="mensaje_toast">Hola, hola Caracola</string>
+    <string name="titulo_juego">Fin de la partida</string>
+    <string name="mensaje_juego">¿Quieres volver a jugar?</string>
+    <string name="fin_partida">Fin de la partida. ¡Gracias por jugar!</string>
+</resources>

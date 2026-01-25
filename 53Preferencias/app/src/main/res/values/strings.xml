@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppPreferencias</string>
+    <string name="titulo">Selecciona tu melodía favorita</string>
+    <string name="melodia0">Silencio</string>
+    <string name="melodia1">Andrómeda</string>
+    <string name="melodia2">Basic Bell</string>
+    <string name="melodia3">Cassiopeia</string>
+    <string name="melodia4">Chime</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="btnCancelar">Cancelar</string>
+</resources>

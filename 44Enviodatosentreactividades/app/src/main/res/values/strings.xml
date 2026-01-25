@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppEnvioDatos</string>
+    <string name="pregunta">¿Cuál es tu nombre?</string>
+    <string name="hint_nombre">Escribe tu nombre</string>
+    <string name="enviar">Enviar</string>
+    <string name="saludo_segunda">Hola, %s, desde la segunda ventana</string>
+    <string name="pregunta_saludo">Devuelve un saludo:</string>
+    <string name="hint_saludo">Escribe un saludo</string>
+    <string name="devolver">Devolver</string>
+    <string name="error_nombre_vacio">Debes escribir un nombre</string>
+    <string name="antipático">Qué antipático eres</string>
+</resources>

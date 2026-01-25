@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppAdivina</string>
+
+    <!-- Textos principales -->
+    <string name="textoInicio">He pensado un número entre 1 y 100.\n\n¿Adivina cuál es?</string>
+    <string name="textoIntentalo">¡Inténtalo!</string>
+    <string name="botonProbar">Probar</string>
+    <string name="botonNuevaPartida">Nueva Partida</string>
+
+    <!-- Mensajes de resultado -->
+    <string name="textoMayor">¿%d? ¡Uy! El número que he pensado es mayor</string>
+    <string name="textoMenor">¿%d? ¡Uy! El número que he pensado es menor</string>
+    <string name="textoAcierto">¡¡Has acertado!!</string>
+
+    <!-- Hint para el EditText -->
+    <string name="hintNumero">Introduce un número</string>
+
+    <!-- Plurales para los intentos -->
+    <plurals name="intentos">
+        <item quantity="one">Llevas %d intento</item>
+        <item quantity="other">Llevas %d intentos</item>
+    </plurals>
+</resources>

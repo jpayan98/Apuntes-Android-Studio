@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppBaseDeDatos</string>
+    <string name="titulo">Contenido de la Base de Datos:</string>
+    <string name="btn_mostrar_lista">Mostrar Lista</string>
+</resources>

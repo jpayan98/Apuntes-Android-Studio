@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejecutarBateria"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejecutarWeb"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/button03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejecutarSMS"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/button04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejecutarSMSConTexto"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/button05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejecutarGaleria"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/button06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejecutarAudio"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/button07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejecutarDial"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/button08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ejecutarCall"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>
