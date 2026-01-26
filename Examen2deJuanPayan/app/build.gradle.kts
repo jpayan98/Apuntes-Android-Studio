@@ -3,13 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.a64ludoteca"
-    compileSdk {
-        version = 36
-    }
+    namespace = "com.example.examen2dejuanpayan"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.a64ludoteca"
+        applicationId = "com.example.examen2dejuanpayan"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
