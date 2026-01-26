@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AppBibliotecaJuanPayan</string>
+    <string name="isbn">ISBN:</string>
+    <string name="titulo">Titulo:</string>
+    <string name="autor">Autor:</string>
+    <string name="btn_consultar">Consultar</string>
+    <string name="btn_insertar">Insertar</string>
+    <string name="btn_actualizar">Actualizar</string>
+    <string name="btn_borrar">Borrar</string>
+    <string name="btn_limpiar">Limpiar</string>
+    <string name="btn_vertodo">Ver todos los libros</string>
+    <string name="prestado">Prestado</string>
+    <string name="msg_campos_vacios">Todos los campos son obligatorios</string>
+    <string name="msg_libro_insertado">Libro insertado correctamente</string>
+    <string name="dialog_titulo_confirmar">Confirmar eliminación</string>
+</resources>
