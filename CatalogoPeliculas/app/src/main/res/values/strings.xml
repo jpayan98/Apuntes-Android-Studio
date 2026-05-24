@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CatalogoPeliculas</string>
+    <string-array name="titulos">
+        <item>Interestellar</item>
+        <item>El Padrino</item>
+        <item>Matrix</item>
+    </string-array>
+
+    <string-array name="directores">
+        <item>Christopher Nolan</item>
+        <item>Francis Ford Coppola</item>
+        <item>Lana Wachowski</item>
+    </string-array>
+</resources>
