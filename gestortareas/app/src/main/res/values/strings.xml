@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">gestortareas</string>
+    <string name="boton">Añadir</string>
+    <string name="placehorder">Nueva tarea</string>
+</resources>
