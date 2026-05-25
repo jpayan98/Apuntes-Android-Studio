@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TiendaMusica</string>
+
+    <string-array name="titulos">
+        <item>Thriller</item>
+        <item>Back in Black</item>
+        <item>Abbey Road</item>
+    </string-array>
+
+    <string-array name="artistas">
+        <item>Michael Jackson</item>
+        <item>AC/DC</item>
+        <item>The Beatles</item>
+    </string-array>
+
+    <string-array name="descripciones">
+        <item>El álbum más vendido de la historia.</item>
+        <item>Icono del rock duro de los 80.</item>
+        <item>Obra maestra del rock clásico.</item>
+    </string-array>
+</resources>
