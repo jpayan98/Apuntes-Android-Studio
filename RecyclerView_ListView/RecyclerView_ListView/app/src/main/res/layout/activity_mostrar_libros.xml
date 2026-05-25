@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- ── SECCIÓN LISTVIEW ───────────────────────────────────────────────── -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_listview"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="#EEEEEE" />
+
+    <!--
+        ListView: vista clásica de Android para listas de texto simple.
+        - No necesita LayoutManager.
+        - Tiene setOnItemClickListener() nativo.
+        - El adapter puede ser ArrayAdapter (simple) o BaseAdapter (personalizado).
+        layout_weight="1" → ocupa 1 parte del espacio libre disponible.
+    -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp" />
+
+    <!-- ── SECCIÓN RECYCLERVIEW ──────────────────────────────────────────── -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_recyclerview"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:background="#EEEEEE" />
+
+    <!--
+        RecyclerView: sustituto moderno del ListView.
+        - Necesita un LayoutManager (LinearLayoutManager, GridLayoutManager…).
+        - NO tiene setOnItemClickListener: el click se gestiona en el ViewHolder.
+        - El adapter extiende RecyclerView.Adapter con el patrón ViewHolder integrado.
+        layout_weight="2" → ocupa el doble de espacio que el ListView.
+    -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:text="@string/volver" />
+
+</LinearLayout>

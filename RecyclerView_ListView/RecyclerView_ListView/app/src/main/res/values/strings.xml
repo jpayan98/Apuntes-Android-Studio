@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">RecyclerView_ListView</string>
+    <string name="nombre">CINE RAMIREZ</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="volver">Volver</string>
+
+    <!-- Etiquetas de sección en verLibros -->
+    <string name="label_listview">Géneros — ListView</string>
+    <string name="label_recyclerview">Películas — RecyclerView</string>
+
+    <!-- Arrays de datos para el RecyclerView -->
+    <string-array name="titulos_peliculas">
+        <item>El Padrino</item>
+        <item>Interstellar</item>
+        <item>El Señor de los Anillos</item>
+    </string-array>
+
+    <string-array name="directores">
+        <item>Francis Ford Coppola</item>
+        <item>Christopher Nolan</item>
+        <item>Peter Jackson</item>
+    </string-array>
+
+    <!-- Array de datos para el ListView -->
+    <string-array name="generos">
+        <item>Acción</item>
+        <item>Drama</item>
+        <item>Ciencia Ficción</item>
+        <item>Thriller</item>
+        <item>Comedia</item>
+    </string-array>
+
+    <!-- Mensajes de login -->
+    <string name="campoUser">El campo USUARIO está vacío</string>
+    <string name="campoPassW">El campo CONTRASEÑA está vacío</string>
+    <string name="ok">Acceso autorizado</string>
+    <string name="notOK">Contraseña incorrecta</string>
+    <string name="notExists">El usuario no existe</string>
+    <string name="insertadoOk">Usuario creado correctamente</string>
+    <string name="insertadoNotOk">Error al crear el usuario</string>
+    <string name="cancelado">Acción cancelada</string>
+
+    <!-- Diálogo de creación de usuario -->
+    <string name="titulo_dialogo">Crear usuario</string>
+    <string name="texto_dialogo">Este usuario no existe. ¿Quieres crearlo?</string>
+</resources>
